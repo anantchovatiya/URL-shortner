@@ -16,5 +16,4 @@ app.get("/login", (req, res) => {
 app.use('/', redirect);
 app.use('/api/url', url);
 
-anant
 module.exports = app;
